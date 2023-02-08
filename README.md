@@ -1,2 +1,2 @@
 # dineoutClone
-An attemt to clone dineout website
+An attemt to clone dineout website with react
