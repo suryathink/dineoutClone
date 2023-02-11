@@ -1,0 +1,31 @@
+.maincontainer {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(244,244,244);
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main {
+  width: 100%;
+  background-color:rgb(244,244,244)
+}
+.maincontainer > div:first-child {
+  background-color: rgb(244,244,244);
+  width: 23%;
+}
+.maincontainer > div:last-child {
+  width: 75%;
+  background-color: rgb(244,244,244);
+}
+
+@media only screen and (max-width: 800px) and(min-width: 450px) {
+  .maincontainer > div:first-child {
+    width: 100%;
+    background-color: red;
+  }
+  .maincontainer > div:last-child {
+    width: 100%;
+  }
+}
