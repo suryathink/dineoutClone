@@ -1,0 +1,56 @@
+#nav_div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+#navbtn {
+    background-color: #ff645a;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    margin-left: -60px;
+    text-align: center;
+}
+
+#navbtn:hover {
+    background-color: red;
+}
+
+.navh4 {
+    font-family: Metropolis,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+
+
+}
+.h4link{
+    text-decoration: none;
+    color: black;
+}
+.navh4:hover{
+    color: rgb(255, 100, 90);
+}
+#imgdiv>img {
+    width: 100px;
+}
+
+#h4div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
